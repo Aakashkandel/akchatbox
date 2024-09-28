@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Akchatapp - Signup</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+
+  <!-- Signup Container -->
+  <div class="min-h-screen flex items-center justify-center">
+    <div class="bg-white shadow-lg rounded-lg p-8 max-w-md w-full">
+      <!-- Logo/Title -->
+      <div class="text-center mb-6">
+        <h2 class="text-3xl font-bold text-blue-600">Akchatapp</h2>
+        <p class="text-gray-600 mt-2">Create your account</p>
+      </div>
+
+      <!-- Signup Form -->
+      <form action="#" method="POST" class="space-y-6">
+        
+        <!-- Full Name -->
+        <div>
+          <label for="name" class="block text-gray-700 font-semibold">Full Name</label>
+          <input type="text" id="name" name="name" required
+            class="w-full mt-1 px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Your Name">
+        </div>
+
+        <!-- Email -->
+        <div>
+          <label for="email" class="block text-gray-700 font-semibold">Email</label>
+          <input type="email" id="email" name="email" required
+            class="w-full mt-1 px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="you@example.com">
+        </div>
+
+        <!-- Password -->
+        <div>
+          <label for="password" class="block text-gray-700 font-semibold">Password</label>
+          <input type="password" id="password" name="password" required
+            class="w-full mt-1 px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Your Password">
+        </div>
+
+        <!-- Confirm Password -->
+        <div>
+          <label for="password_confirmation" class="block text-gray-700 font-semibold">Confirm Password</label>
+          <input type="password" id="password_confirmation" name="password_confirmation" required
+            class="w-full mt-1 px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Confirm Password">
+        </div>
+
+        <!-- Submit Button -->
+        <div>
+          <button type="submit"
+            class="w-full bg-blue-600 text-white font-semibold py-3 rounded-lg hover:bg-blue-700 transition">
+            Sign Up
+          </button>
+        </div>
+      </form>
+
+      <!-- Login Link -->
+      <div class="text-center mt-6">
+        <p class="text-gray-600">Already have an account? 
+          <a href="#" class="text-blue-600 font-semibold hover:underline">Login</a>
+        </p>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
